@@ -1,0 +1,13 @@
+# Comparación Conceptual: Flujo Multiagente vs RAG
+
+## 1. Manejo de ambigüedad y contradicciones
+- **Flujo multiagente**: Al tener múltiples agentes trabajando en paralelo, puede integrar distintos puntos de vista y resolver ambigüedades mediante consenso o priorización de respuestas. Esto ayuda a identificar contradicciones, aunque a veces puede generar incoherencias si los agentes no se coordinan bien.
+- **RAG**: Se basa en documentos recuperados y un modelo de lenguaje que sintetiza información. La ambigüedad se maneja al limitar las respuestas a lo que aparece en los fragmentos recuperados, evitando inventar información, pero depende de la cobertura de los datos.
+
+## 2. Veracidad y cobertura de datos
+- **Flujo multiagente**: La veracidad depende de la calidad de cada agente; algunos pueden aportar datos incorrectos o sesgados. La cobertura puede ser amplia si los agentes acceden a distintas fuentes, pero no siempre es exhaustiva.
+- **RAG**: Garantiza mayor veracidad si los documentos recuperados son confiables, ya que el modelo sintetiza información existente. La cobertura depende de la base de datos o corpus utilizado: si faltan datos, la respuesta puede ser incompleta.
+
+## 3. Adecuación según el tipo de pregunta
+- **Preguntas abiertas o exploratorias**: El flujo multiagente puede ser más creativo y ofrecer perspectivas variadas, útil para brainstorming o análisis cualitativo.
+- **Preguntas factuales o basadas en datos**: RAG es más adecuado porque recupera información específica de fuentes concretas y genera respuestas fundamentadas, minimizando errores o inventos del modelo.
