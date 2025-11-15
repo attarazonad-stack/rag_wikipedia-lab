@@ -1,0 +1,10 @@
+crewai
+langchain
+sentence-transformers
+chromadb
+wikipedia-api
+transformers
+torch
+pandas
+numpy
+markdown
